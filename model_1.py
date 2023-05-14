@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 from numba import njit
 import pybroker
-from pybroker import Strategy, YFinance, IndicatorSet
+from pybroker import Strategy
+from pybroker import YFinance
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing
 from sklearn.metrics import r2_score
